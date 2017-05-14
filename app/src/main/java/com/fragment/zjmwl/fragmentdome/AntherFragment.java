@@ -8,18 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by zjmwl on 2017/5/12.右边的fragment类
+ * Created by zjm on 2017/5/14.
  */
 
-public class RightFragment extends Fragment {
-
+public class AntherFragment extends Fragment {
     @Nullable
     @Override
-    /**
-     * 通过onCreateView()方法加载定义好的布局文件
-     */
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.right_fragment,container,false);
+        View view = inflater.inflate(R.layout.anther_fragment, container, false);
         return view;
     }
 }
